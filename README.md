@@ -1,8 +1,13 @@
 # petesGame
-Game coding project
+Game coding project by Pete Cassidy
 
-In early development...
+A simple shoot-em up game written in Javascript
+
+In early development and under ongoing construction...
+
 Collaborators are welcome....
 
 
-Game coding project https://togout.github.io/petesGame/
+Link to play the 'Planet Invaders' game  
+https://togout.github.io/petesGame/
+(Android and iOS compatible with nearly every modern browser)
