@@ -39,8 +39,8 @@ var startGame = function() {
     Game.setBoard(1,new Starfield(50,0.6,100));
     Game.setBoard(2,new Starfield(100,1.0,50));
   }
-  Game.setBoard(3,new TitleScreen("Petes Space Invaders",
-                                  "Press fire (spacebar) to start playing",
+  Game.setBoard(3,new TitleScreen("Planet Invaders",
+                                  "Press A to start playing",
                                   playGame));
 };
 
@@ -73,8 +73,8 @@ var winGame = function() {
 };
 
 var loseGame = function() {
-  Game.setBoard(3,new TitleScreen("You loser!",
-                                  "Press fire to play again",
+  Game.setBoard(3,new TitleScreen("You no-good loser!",
+                                  "Press A to play again",
                                   playGame));
 };
 
